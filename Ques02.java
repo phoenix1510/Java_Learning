@@ -1,6 +1,6 @@
 //Write Java Program to display student details
 import java.util.Scanner;
-public class Ques2{
+public class Ques02{
     public static void main(String arg[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Student Name:");

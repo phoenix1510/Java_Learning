@@ -1,6 +1,6 @@
 //Write Java Program to add two numbers
 import java.util.Scanner;
-public class Ques3{
+public class Ques03{
     public static void main(String arg[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter First number:");

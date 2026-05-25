@@ -1,6 +1,6 @@
 //Write Java Program to find the largest of two numbers
 import java.util.Scanner;
-public class Ques8{
+public class Ques08{
     public static void main(String arg[]){
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter first number:");

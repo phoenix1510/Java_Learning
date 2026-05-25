@@ -1,6 +1,6 @@
 //Write Java Program to swap two numbers without using third variable
 import java.util.Scanner;
-public class Ques5{
+public class Ques05{
     public static void main(String arg[]){
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter First number:");
