@@ -5,7 +5,7 @@ public class Ques14{
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter temperature in Celsius:");
         double celcius= sc.nextDouble();
-        double fahrenheit= ((celcius)*1.8)+32;
+        double fahrenheit= (celcius*1.8)+32; 
         System.out.println("Temperature in Fahrenheit is: "+fahrenheit);
     }
 }
