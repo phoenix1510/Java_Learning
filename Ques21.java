@@ -18,7 +18,7 @@ public class Ques21{
             System.out.print("Enter product number (1-5) or 0 to exit: ");
             int productNumber = sc.nextInt();
             if (productNumber == 0) {
-                break; // Exit the loop if the user enters 0
+                break; 
             }
             System.out.print("Enter quantity sold: ");
             int quantitySold = sc.nextInt();
@@ -41,10 +41,9 @@ public class Ques21{
                     break;
                 default:
                     System.out.println("Invalid product number. Please enter a number between 1 and 5.");
-                    continue; // Skip the rest of the loop and prompt again
+                    continue;
             }
-            totalRetailValue += retailPrice * quantitySold; // Calculate total retail value
-        }
+            totalRetailValue += retailPrice * quantitySold; 
         System.out.println("Final total retail value: Rs. " + (int) totalRetailValue); 
     }
 }
