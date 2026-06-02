@@ -11,9 +11,11 @@ public class Ques34{
             if(str.charAt(i)=='a' || str.charAt(i)=='e' || str.charAt(i)=='i' || str.charAt(i)=='o' || str.charAt(i)=='u' || str.charAt(i)=='A' || str.charAt(i)=='E' || str.charAt(i)=='I' || str.charAt(i)=='O' || str.charAt(i)=='U'){
                 vowelCount++;
             }
-            else if((((str.charAt(i)>='a' && str.charAt(i)<='z') || (str.charAt(i)>='A' && str.charAt(i)<='Z'))) && (((str.charAt(i)=='a' || str.charAt(i)=='e' || str.charAt(i)=='i' || str.charAt(i)=='o' || str.charAt(i)=='u' ||str.charAt(i)=='A' || str.charAt(i)=='E' || str.charAt(i)=='I' || str.charAt(i)=='O' || str.charAt(i)=='U')))){
+            else if((str.charAt(i)>='a' && str.charAt(i)<='z') || (str.charAt(i)>='A' && str.charAt(i)<='Z')){
                 consonantCount++;
-            }
+            }  
+            //this works by first checking if character at index i is vowel, if it is not then else block only needs to check wether character is a letter or not, if it is a letter then it is a consonant, if it is not a letter then we can ignore it as it is neither vowel nor consonant
+            //since else block will only work when character IS NOT a vowel.
         }
         System.out.println("Number of vowels: " + vowelCount);
         System.out.println("Number of consonants: " + consonantCount);
